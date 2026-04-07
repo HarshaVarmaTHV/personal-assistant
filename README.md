@@ -48,6 +48,10 @@ Refer to the individual `README.md` files in each directory for specific setup a
 - [MCP Toolbox Setup](./mcp-toolbox/README.md)
 - [Personal Assistant Agent Setup](./personal_assistant/README.md)
 
+
+<img width="934" height="416" alt="image" src="https://github.com/user-attachments/assets/040e7fee-34d3-4204-bd01-a3d86f76c039" />
+
+
 - ## Links post deployment
 - mcp : https://toolbox-296956655568.us-central1.run.app
 - adk agent : https://personal-assistant-296956655568.us-central1.run.app
