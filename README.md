@@ -47,3 +47,7 @@ The personal assistant uses a **Hub-and-Spoke** orchestration model to manage sc
 Refer to the individual `README.md` files in each directory for specific setup and deployment instructions:
 - [MCP Toolbox Setup](./mcp-toolbox/README.md)
 - [Personal Assistant Agent Setup](./personal_assistant/README.md)
+
+- ## Links post deployment
+- mcp : https://toolbox-296956655568.us-central1.run.app
+- adk agent : https://personal-assistant-296956655568.us-central1.run.app
