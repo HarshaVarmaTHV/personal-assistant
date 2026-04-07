@@ -1,0 +1,39 @@
+sources:
+  my-firestore-source:
+    kind: firestore
+    project: harshavarmathv
+    database: "personal-assistant"
+
+tools:
+  get_documents:
+    kind: firestore-get-documents
+    source: my-firestore-source
+    description: "Retrieves specific documents from Firestore using their full document paths."
+
+  add_documents:
+    kind: firestore-add-documents
+    source: my-firestore-source
+    description: "Adds new documents to a specified collection path."
+
+  update_document:
+    kind: firestore-update-document
+    source: my-firestore-source
+    description: "Updates fields in an existing Firestore document."
+
+  delete_documents:
+    kind: firestore-delete-documents
+    source: my-firestore-source
+    description: "Deletes one or more documents from Firestore based on their paths."
+
+  query_collection:
+    kind: firestore-query-collection
+    source: my-firestore-source
+    description: "Queries a Firestore collection (like agent_logs, notes, or tasks) with filters and ordering."
+
+toolsets:
+  firestore_full_access:
+    - get_documents
+    - add_documents
+    - update_document
+    - delete_documents
+    - query_collection

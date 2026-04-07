@@ -1,0 +1,6 @@
+google-adk
+toolbox-adk
+toolbox-core
+google-cloud-firestore
+google-cloud-aiplatform
+python-dotenv
